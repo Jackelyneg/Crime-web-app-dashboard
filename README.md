@@ -2,14 +2,21 @@
 
 Project 3 proposal 
 
-Title 
+# Title 
 If you can't do the time, don't do the crime!
 
-Team Members: Saumya Pandey, Tricia Toffey, Jackelyne Gutierrez, Andy Jagdeo, Okyere Gyebi
+## Team Members: 
+- [Saumya Pandey](https://github.com/saumya-datascience)
+- [Tricia Toffey](https://github.com/ttoffey)
+- [Jackelyne Gutierrez](https://github.com/Jackelyneg)
+- [Andy Jagdeo](https://github.com/Andyjag91)
+- [Okyere Gyebi](https://github.com/Okyere82)
+
+
 
 Purpose
 
- to find the safest place to live in US
+ to find the safest place to live in US North East region
 
 Questions to answer:
 
