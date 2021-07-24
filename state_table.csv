@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ,state_abbr,state
 0,NY,New York
 1,NJ,New Jersey
@@ -16,3 +17,23 @@
 14,MD,Maryland
 15,GA,Georgia
 16,VT,Vermont
+=======
+,state_id,state
+0,0,NY
+1,1,NJ
+2,2,ME
+3,3,NH
+4,4,MA
+5,5,WV
+6,6,CT
+7,7,RI
+8,8,VA
+9,9,NC
+10,10,PA
+11,11,FL
+12,12,SC
+13,13,DE
+14,14,MD
+15,15,GA
+16,16,VT
+>>>>>>> d12235137de422c572beb679ef1ce8336ffe9fc9
