@@ -1,18 +1,18 @@
-,state_id,state
-0,0,NY
-1,1,NJ
-2,2,ME
-3,3,NH
-4,4,MA
-5,5,WV
-6,6,CT
-7,7,RI
-8,8,VA
-9,9,NC
-10,10,PA
-11,11,FL
-12,12,SC
-13,13,DE
-14,14,MD
-15,15,GA
-16,16,VT
+,state_abbr,state
+0,NY,New York
+1,NJ,New Jersey
+2,ME,Maine
+3,NH,New Hamshire
+4,MA,Massachusetts
+5,WV,West Virginia
+6,CT,Connecticut
+7,RI,Rhode Island
+8,VA,Virginia
+9,NC,North Carolina
+10,PA,Pennsylvania
+11,FL,Florida
+12,SC,South Carolina
+13,DE,Delaware
+14,MD,Maryland
+15,GA,Georgia
+16,VT,Vermont
