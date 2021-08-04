@@ -22,40 +22,55 @@
       <div class="col-md-2">
         <div class="well">
           <h5>Crime Type.:</h5>
-          <select id="selDataset" onchange="optionChanged(this.value)"></select>
+          <select id="selDataset" onchange="optionChangedCrime(this.value)"></select>
         </div>
-        <div class="col-md-2">
-          <div class="well">
-            <h5>State Type.:</h5>
-            <select id="selDataset1" onchange="optionChanged(this.value)"></select>
-          </div>
-
-        <div class="panel panel-primary">
-          <div class="panel-heading">
-            <h3 class="panel-title">Demographic Info</h3>
-          </div>
-          <div id="sample-metadata" class="panel-body"></div>
-        </div>
-      </div>
-      <div class="col-md-5">
-        <div id="bar"></div>
-      </div>
-      <div class="col-md-5">
-        <div id="gauge"></div>
       </div>
     </div>
     <div class="row">
-      <div class="col-md-12">
-        <div id="bubble"></div>
+      <div class="col-md-2">
+        <div class="well">
+          <h5>State Type.:</h5>
+          <select id="selDataset1" onchange="optionChangedState(this.value)"></select>
+        </div>
       </div>
     </div>
+    <div class="row">
+      <div class="col-md-2">
+       <div class="well">
+          <h5>Year.:</h5>
+          <select id="selDataset3" onchange="optionChangedYear(this.value)"></select>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h3 class="panel-title">Demographic Info</h3>
+      </div>
+      <div id="sample-metadata" class="panel-body"></div>
+    </div>
+  </div>
+  <div class="col-md-5">
+    <div id="bar"></div>
+  </div>
+  <div class="col-md-5">
+    <div id="gauge"></div>
+  </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="bubble"></div>
+    </div>
+  </div>
   </div>
 
   <script src="https://d3js.org/d3.v5.min.js"></script>
   <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
   <script src="static/js/crimeapp.js"></script>
-  <!-- <script src="static/js/bonus.js"></script> -->
   
+
 </body>
 
 </html>
