@@ -147,13 +147,14 @@ when we expanded the particular state, irrespective of the fact that they were e
 
 ### Bar chart
 The bar chart displays summary data for all of the states in our dataset for the five years we analyzed (2014-2018) including totals for population, income, crime and police. This data helped in exploring possible relationships between crime and population, crime and number of police and crime and income. 
+![BarChart](https://github.com/Jackelyneg/Crime-Project/blob/main/app/static/images/BarChart.png)
 
 ## Choropleth maps to depict the Crime data on the East Coast geographical map.
 We created a interactive Choropleth map of the Crime Density of the East Coast states with the help of GeoJSON.The map is reponsive with the Year as well as Crime Type.
 ### Choropleth
 ![ChoroPleth](https://github.com/Jackelyneg/Crime-Project/blob/main/images/choropeth-map.png)
 
-#### Challenges Faced: From the query we got a regulat json but the choropleth uses only geojson. Codes were written to add a crime-reported property to the GeoJson.
+####Challenges Faced: From the query we got a regulat json but the choropleth uses only geojson. Codes were written to add a crime-reported property to the GeoJson.
 
 
 Choropleth maps are popular thematic maps used to represent statistical data through various shading patterns or symbols on predetermined geographic areas (i.e. countries). They are good at utilizing data to easily represent variability of the desired measurement, across a region.
