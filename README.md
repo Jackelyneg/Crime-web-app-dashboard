@@ -1,5 +1,8 @@
 # All About Crime
 
+<img src="https://github.com/Jackelyneg/Crime-Project/blob/main/app/static/images/download.jpg" width="1000" height="400">
+
+
 ## Table of Contents
 - [Purpose/Questions to be Answered]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Purpose/Questions-to-be-Answered)
 - [Overview/Project Summary]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Overview/Project-Summary)
