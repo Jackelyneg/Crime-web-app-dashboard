@@ -107,7 +107,7 @@ Following are the list of sources we used in our project:
 - Merge multiple datasets from different years and different topics into one table
 - Create a jsonified file into Pandas
 
-##Entity Relationship Diagram
+## Entity Relationship Diagram
 
 
  
