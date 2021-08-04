@@ -61,7 +61,7 @@ Keeping our aim in mind some of the burning questions we tried to address in our
 
 ## Overview/Project Summary
 
-With our aim set and our detective hat on we explored different dataset.We focused on 17 east coast states from 2014-2018  to do our research. The states include (Connecticut, Delaware, Florida, Georgia, Massachusetts, Maryland, Maine, North Carolina, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, South Carolina, Virginia, Vermont and West Virginia). We targeted 9 different crime types (aggravated assault, arson, burglary, homicide, larceny, motor vehicle theft, property crime, rape, rape legacy, robbery and violent crime) and their numbers from these states.
+With our aim set and our detective hat on we explored different datasets. We focused on 17 east coast states from 2014-2018 to do our research. The states include (Connecticut, Delaware, Florida, Georgia, Massachusetts, Maryland, Maine, North Carolina, New Hampshire, New Jersey, New York, Pennsylvania, Rhode Island, South Carolina, Virginia, Vermont and West Virginia). We targeted 9 different crime types (aggravated assault, arson, burglary, homicide, larceny, motor vehicle theft, property crime, rape, rape legacy, robbery and violent crime) and their numbers from these states.
 
 We were also interested in looking at the relationships between the crimes and the Demographics which include population, education, income and the number of police.  Hence we did an extensive search to get all the data needed from different sources.
 Following are the list of sources we used in our project:
