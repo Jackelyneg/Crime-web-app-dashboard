@@ -105,18 +105,7 @@ def sunburst_map(query_year):
 
         
 
-# @app.route("/demographicdata/<crime>/<state>/<query_year>")
-# def demo_state(crime,state,query_year):
-#     demo_type=pd.read_sql(f"""select demographics.population, demographics.year , demographics.officer_count,all_crime.state_abbr,all_crime.state,all_crime.crime_reported, all_crime.offense
-#     from all_crime
-#     inner join demographics
-#     on all_crime.state_abbr = demographics.state_abbr
-#     where all_crime.offense = '{crime}'
-#     AND all_crime.state='{state}'
-#     AND all_crime.year = {query_year};""",engine)
-    
-#     bubble_list = demo_type.to_dict(orient = "records")
-#     return jsonify(bubble_list)  
+ 
 @app.route("/demographicdata/<crime>/<state>/<newyear>")
 def demo_state(crime,state,newyear):
     demo_type=pd.read_sql(f"""select demographics.population, demographics.year , demographics.officer_count,all_crime.state_abbr,all_crime.state,all_crime.crime_reported, all_crime.offense
@@ -174,51 +163,7 @@ def state(state):
          WHERE s.state LIKE '{state}';""", engine)
     stateData = state_data_type.to_dict(orient="records")
     return jsonify(stateData)
-# @app.route("/state_data/<state>")
-# def state(state):   
-#     state_data_type = pd.read_sql(f"""SELECT DISTINCT s.state, d.year, d.population as Population, d.officer_count as Officer_Count, 
-#         d.education as Degree_Holders, d.income as income, coalesce(p.Total_Crimes, 0) as Crimes
-#         FROM state_table as s
-#         LEFT JOIN demographics as d ON d.state_abbr = s.state_abbr  
-#         LEFT JOIN
-#         (SELECT state, year, SUM(CAST(crime_reported as int)) as Total_Crimes
-#         FROM all_crime 
-#         WHERE state LIKE '{state}'
-#         GROUP BY state, year 
-#         ORDER BY state, year) p
-#         ON s.state = p.state AND d.year = p.year
-#          WHERE s.state LIKE '{state}';""",engine)
-#     stateData = state_data_type.to_dict(orient="records")
-#     return jsonify(stateData)  
 
-
-
-
-
-
-# @app.route("/choropeleth_map/")
-# def choro_map():
-#     crime_df=pd.read_sql("""SELECT * from all_crime """, engine)
-#     subset=pd.read_sql("""select state_abbr,sum(crime_reported) as crimestatewise
-#     from all_crime
-#     group by state_abbr;""",engine)
-#     merge_df=subset.merge(crime_df,how="inner",on="state_abbr",)
-#     import json
-
-#     with open('new.geojson', 'r') as f:
-#         data = json.load(f)
-#     #Loop over GeoJSON features and add the new properties
-#     for feat in data['features']:
-#         for index, row in merge_df.iterrows():
-#             if feat['properties']['name']==row["state"]:
-#                 print(row["state"])
-#                 feat['properties']['density']=row["crimestatewise"]
-#                 print(feat['properties']['density'])
-#     with open('hope.geojson', 'w') as f:
-#         json.dump(data, f)
-#     with open('hope.geojson', 'r') as c:
-#         data = json.load(c) 
-#     return(data)
 
     
 if __name__ == "__main__":
