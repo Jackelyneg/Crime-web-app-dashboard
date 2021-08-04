@@ -2,7 +2,7 @@
 
 ## Table of Contents
 - [Purpose/Questions to be Answered]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Purpose/Questions-to-be-Answered)
-- [Overview/Project Summary]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Overview/Project-Summary]
+- [Overview/Project Summary]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Overview/Project-Summary)
 - [List of data sources]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#List-of-data-sources)
 - [Technologies]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Technologies)
 - [Data Exploration]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Data-Exploration)
