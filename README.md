@@ -110,78 +110,10 @@ Following are the list of sources we used in our project:
 ## Entity Relationship Diagram
 
 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-## Visualizations
-
-## Panel
-
-## Crimes Reported for diffrenet Crime Types understudy per State Per Year
-Sunburst Plot was used to provide a comprehensive Visualization of the different crime types reported per State per Year.
-AnyChart a lightweight and robust Javascript Charting Library was used to plot the sunburst.
-The plot is populated by the year dropdown and siaplays data(crime reported) for all the states for the year selected.
-For 2018 we could visualize that the  worst Crime affected state was Maryland while the least was Pensylvania.
-when we expanded the particular state, irrespective of the fact that they were either best or worst affected state, property Crime and Larceny were the maximum reported crimes.
-![sunburst](https://github.com/Jackelyneg/Crime-Project/blob/main/images/sunburst1.png)
-### Sunburst MD
-![sunburstMaryLand](https://github.com/Jackelyneg/Crime-Project/blob/main/images/sunburstMD.png)
-### Sunburst PA
-![sunburstPA](https://github.com/Jackelyneg/Crime-Project/blob/main/images/sunburstPA.png)
-
-####Challenges Faced: The sunburst takes the json/XML/CSV in a specific format. To convert the dataframe we got from the query into the specific format was challenging.
 
 
 
 
-### Bar chart
-The bar chart displays summary data for all of the states in our dataset for the five years we analyzed (2014-2018) including totals for population, income, crime and police. This data helped in exploring possible relationships between crime and population, crime and number of police and crime and income. 
-![BarChart](https://github.com/Jackelyneg/Crime-Project/blob/main/app/static/images/BarChart.png)
-
-## Choropleth maps to depict the Crime data on the East Coast geographical map.
-We created a interactive Choropleth map of the Crime Density of the East Coast states with the help of GeoJSON.The map is reponsive with the Year as well as Crime Type.
-### Choropleth
-![ChoroPleth](https://github.com/Jackelyneg/Crime-Project/blob/main/images/choropeth-map.png)
-
-####Challenges Faced: From the query we got a regulat json but the choropleth uses only geojson. Codes were written to add a crime-reported property to the GeoJson.
-
-
-Choropleth maps are popular thematic maps used to represent statistical data through various shading patterns or symbols on predetermined geographic areas (i.e. countries). They are good at utilizing data to easily represent variability of the desired measurement, across a region.
-
-
-
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
 ## Example Queries:
 ### Query for dropdown by year, state and crime:
        offense_type =pd.read_sql(“””SELECT offense 
@@ -244,8 +176,56 @@ Choropleth maps are popular thematic maps used to represent statistical data thr
     (SELECT state,year, SUM(CAST(crime_reported as int)) as Total_Crimes
     FROM all_crime
     WHERE state LIKE ‘{state}’
-    
-    
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+## Visualizations
+
+## Panel
+
+## Crimes Reported for diffrenet Crime Types understudy per State Per Year
+Sunburst Plot was used to provide a comprehensive Visualization of the different crime types reported per State per Year.
+AnyChart a lightweight and robust Javascript Charting Library was used to plot the sunburst.
+The plot is populated by the year dropdown and siaplays data(crime reported) for all the states for the year selected.
+For 2018 we could visualize that the  worst Crime affected state was Maryland while the least was Pensylvania.
+when we expanded the particular state, irrespective of the fact that they were either best or worst affected state, property Crime and Larceny were the maximum reported crimes.
+![sunburst](https://github.com/Jackelyneg/Crime-Project/blob/main/images/sunburst1.png)
+### Sunburst MD
+![sunburstMaryLand](https://github.com/Jackelyneg/Crime-Project/blob/main/images/sunburstMD.png)
+### Sunburst PA
+![sunburstPA](https://github.com/Jackelyneg/Crime-Project/blob/main/images/sunburstPA.png)
+
+####Challenges Faced: The sunburst takes the json/XML/CSV in a specific format. To convert the dataframe we got from the query into the specific format was challenging.
+
+
+
+
+### Bar chart
+The bar chart displays summary data for all of the states in our dataset for the five years we analyzed (2014-2018) including totals for population, income, crime and police. This data helped in exploring possible relationships between crime and population, crime and number of police and crime and income. 
+![BarChart](https://github.com/Jackelyneg/Crime-Project/blob/main/app/static/images/BarChart.png)
+
+## Choropleth maps to depict the Crime data on the East Coast geographical map.
+We created a interactive Choropleth map of the Crime Density of the East Coast states with the help of GeoJSON.The map is reponsive with the Year as well as Crime Type.
+### Choropleth
+![ChoroPleth](https://github.com/Jackelyneg/Crime-Project/blob/main/images/choropeth-map.png)
+
+####Challenges Faced: From the query we got a regulat json but the choropleth uses only geojson. Codes were written to add a crime-reported property to the GeoJson.
+
+
+Choropleth maps are popular thematic maps used to represent statistical data through various shading patterns or symbols on predetermined geographic areas (i.e. countries). They are good at utilizing data to easily represent variability of the desired measurement, across a region
 
 
 
