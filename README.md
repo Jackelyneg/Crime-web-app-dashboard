@@ -184,7 +184,7 @@ It is interesting to note that even though MD median Income is $87,785 vs PA inc
 
 - [Saumya Pandey](https://github.com/saumya-datascience)
 - [Andy Jagdeo](https://github.com/Andyjag91)
-- [Tricia Toffey](https://github.com/saumya-datascience)
+- [Tricia Toffey](https://github.com/ttoffey)
 - [Jackelyne Gutierrez](https://github.com//Jackelyneg)
 - [Okyere Gyebi](https://github.com/Okyere82)
 
