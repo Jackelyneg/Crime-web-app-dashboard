@@ -67,15 +67,15 @@ We were also interested in looking at the relationships between the crimes and t
 Following are the list of sources we used in our project:
      ##List of data sources
 - FBI Crime Data (API):
-- https://crime-data-explorer.fr.cloud.gov/pages/docApi
+ https://crime-data-explorer.fr.cloud.gov/pages/docApi
 - Race Data:
-- https://www.kff.org/other/state-indicator/distribution-by-raceethnicity/?currentTi[…]sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
+ https://www.kff.org/other/state-indicator/distribution-by-raceethnicity/?currentTi[…]sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
 - Demographic Data:
-- https://www.census.gov/newsroom/press-releases/2019/acs-5-year.html
+ https://www.census.gov/newsroom/press-releases/2019/acs-5-year.html
 - Education Data:
-- https://fred.stlouis.fed.org
+ https://fred.stlouis.fed.org
 - Police Data:
-- https://crime-data-explorer.fr.cloud.gov
+ https://crime-data-explorer.fr.cloud.gov
 
 
 
