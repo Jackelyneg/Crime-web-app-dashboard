@@ -200,7 +200,6 @@ Following are the list of sources we used in our project:
 
 ## Panel
 ![Dashboard](https://github.com/Jackelyneg/Crime-Project/blob/main/images/dashboard_Dropdowns.jpg)
-
 ![Panel](https://github.com/Jackelyneg/Crime-Project/blob/main/images/Demographics%20%20panel.jpg)
 ## Crimes Reported for diffrenet Crime Types understudy per State Per Year
 Sunburst Plot was used to provide a comprehensive Visualization of the different crime types reported per State per Year.
