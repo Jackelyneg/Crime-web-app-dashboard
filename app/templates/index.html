@@ -1,16 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>All about Crime</title>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-core.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-sunburst.min.js"></script>
+  <script src="https://cdn.anychart.com/releases/8.9.0/js/anychart-data-adapter.min.js"></script>
+  <link rel="shortcut icon" href="#">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <style type="text/css">
+    html,
+    body,
+    #container {
+      width: 90%;
+      height: 90%;
+      margin: 0;
+      padding: 0;
+    }
+  </style>
 </head>
-
 <body>
-
+  <div id="container"></div>
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron text-center">
@@ -21,56 +33,47 @@
     <div class="row">
       <div class="col-md-2">
         <div class="well">
-          <h5>Crime Type.:</h5>
-          <select id="selDataset" onchange="optionChangedCrime(this.value)"></select>
+          <h5>Crime Type:</h5>
+          <select id="selDataset" onchange="optionChangedcrime(this.value)"></select>
+          <!-- onchange="optionChangedcrime(this.value)" -->
+          <!-- onchange="optionChanged(this.value) -->
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-          <h5>State Type.:</h5>
-          <select id="selDataset1" onchange="optionChangedState(this.value)"></select>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>State Type:</h5>
+            <select id="selDataset1" onchange="optionChangedstate(this.value)"></select>
+            <!-- onchange="optionChangedstate(this.value)" -->
+          </div>
+          <div class="col-md-2">
+            <div class="well">
+              <h5>Year:</h5>
+              <select id="selDataset2" onchange="optionChanged(this.value)"></select>
+              <!-- <select id="id1" onchange="myFunction()"></select> -->
+            </div>
+            <div class="panel panel-primary">
+              <div class="panel-heading">
+                <h3 class="panel-title">Demographic Info</h3>
+              </div>
+              <div id="sample-metadata" class="panel-body"></div>
+            </div>
+          </div>
+          <!-- <div class="col-md-5">
+        <div id="container"></div>
+      </div> -->
+          <div class="col-md-5">
+            <div id="map"></div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-       <div class="well">
-          <h5>Year.:</h5>
-          <select id="selDataset3" onchange="optionChangedYear(this.value)"></select>
+        <div id="c"> -->
+          <div class="row">
+            <div class="col-md-12">
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-md-2">
-        <div class="well">
-    <div class="panel panel-primary">
-      <div class="panel-heading">
-        <h3 class="panel-title">Demographic Info</h3>
-      </div>
-      <div id="sample-metadata" class="panel-body"></div>
-    </div>
-  </div>
-  <div class="col-md-5">
-    <div id="bar"></div>
-  </div>
-  <div class="col-md-5">
-    <div id="gauge"></div>
-  </div>
-  </div>
-  <div class="row">
-    <div class="col-md-12">
-      <div id="bubble"></div>
-    </div>
-  </div>
-  </div>
-
-  <script src="https://d3js.org/d3.v5.min.js"></script>
-  <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
-  <script src="static/js/crimeapp.js"></script>
-  
-
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+        <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+        <script src="static/js/crimeapp_project.js"></script>
+        <!-- <script src="static/js/bonus.js"></script> -->
 </body>
-
 </html>
