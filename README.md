@@ -153,7 +153,7 @@ We created a interactive Choropleth map of the Crime Density of the East Coast s
 ### Choropleth
 ![ChoroPleth](https://github.com/Jackelyneg/Crime-Project/blob/main/images/choropeth-map.png)
 
-####Challenges Faced: From the query we got a regulat json but the choropleth uses only geojson. Codes were written to add a crime-reported property to the GeoJson.
+#### Challenges Faced: From the query we got a regulat json but the choropleth uses only geojson. Codes were written to add a crime-reported property to the GeoJson.
 
 
 Choropleth maps are popular thematic maps used to represent statistical data through various shading patterns or symbols on predetermined geographic areas (i.e. countries). They are good at utilizing data to easily represent variability of the desired measurement, across a region.
