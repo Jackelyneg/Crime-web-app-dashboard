@@ -126,14 +126,17 @@ Following are the list of sources we used in our project:
  
 ## Visualizations
 
-Bubble chart/heat map 
-Dashboard to view crime trends and patterns
-Using Layers of maps, 
- Sun burst: interactive pie chart (attempt)
-Search box
-R graph from Javascript library
-Using leaflet in Javascript library
-Javascript library: tabulator
+## Panel
+
+## Sunburst
+
+### Bar chart
+The bar chart displays summary data for all of the states in our dataset for the five years we analyzed (2014-2018) including totals for population, income, crime and police. This data helped in exploring possible relationships between crime and population, crime and number of police and crime and income. 
+
+## Map
+
+
+
  
  
  
