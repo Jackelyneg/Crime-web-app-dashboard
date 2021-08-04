@@ -199,7 +199,12 @@ Following are the list of sources we used in our project:
 ## Visualizations
 
 ## Panel
+## Demographic Info Panel 
+ This panel consist of three dropdowns that are interactive. It consist of Crime_type,state_type and the year dropdowns.By selecting one of the crimetypes in the dropdown and 
+ selecting one of the state in the state_type dropdown and lastly selecting one of the year, it pulls  all the data from the database corresponding to the data selected and populates it to the demographic info Panel.This helps users to know exactly the information they need to take decisions on where to relocate to.
 ![Dashboard](https://github.com/Jackelyneg/Crime-Project/blob/main/images/dashboard_Dropdowns.jpg)
+
+The diagram below depicts exactly what happens when you select the dropdowns.
 ![Panel](https://github.com/Jackelyneg/Crime-Project/blob/main/images/Demographics%20%20panel.jpg)
 ## Crimes Reported for diffrenet Crime Types understudy per State Per Year
 Sunburst Plot was used to provide a comprehensive Visualization of the different crime types reported per State per Year.
