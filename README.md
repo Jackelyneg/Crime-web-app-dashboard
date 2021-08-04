@@ -108,6 +108,7 @@ Following are the list of sources we used in our project:
 - Create a jsonified file into Pandas
 
 ## Entity Relationship Diagram
+![ERD ](https://github.com/Jackelyneg/Crime-Project/blob/main/images/erd.png)
 
 
 
