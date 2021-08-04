@@ -2,8 +2,8 @@
 
 ## Table of Contents
 - [Purpose/Questions to be Answered]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Purpose/Questions-to-be-Answered)
-- [Overview/Project Summary]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Overview/Project-Summary]
-- [List of data sources]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#List of data sources)
+- [Overview/Project Summary](https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Overview/Project-Summary]
+- [List of data sources](https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#List of data sources)
 - [Technologies]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Technologies)
 - [Data Exploration]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#Data-Exploration)
 - [ERD]( https://github.com/Jackelyneg/Crime-Project/edit/main/README.md#ERD)
@@ -66,16 +66,16 @@ With our aim set and our detective hat on we explored different dataset.We focus
 We were also interested in looking at the relationships between the crimes and the Demographics which include population, education, income and the number of police.  Hence we did an extensive search to get all the data needed from different sources.
 Following are the list of sources we used in our project:
      ##List of data sources
-FBI Crime Data (API):
-https://crime-data-explorer.fr.cloud.gov/pages/docApi
-Race Data:
-https://www.kff.org/other/state-indicator/distribution-by-raceethnicity/?currentTi[…]sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
-Demographic Data:
-https://www.census.gov/newsroom/press-releases/2019/acs-5-year.html
-Education Data:
-https://fred.stlouis.fed.org
-Police Data:
-https://crime-data-explorer.fr.cloud.gov
+- FBI Crime Data (API):
+- https://crime-data-explorer.fr.cloud.gov/pages/docApi
+- Race Data:
+- https://www.kff.org/other/state-indicator/distribution-by-raceethnicity/?currentTi[…]sortModel=%7B%22colId%22:%22Location%22,%22sort%22:%22asc%22%7D
+- Demographic Data:
+- https://www.census.gov/newsroom/press-releases/2019/acs-5-year.html
+- Education Data:
+- https://fred.stlouis.fed.org
+- Police Data:
+- https://crime-data-explorer.fr.cloud.gov
 
 
 
@@ -182,11 +182,11 @@ It is interesting to note that even though MD median Income is $87,785 vs PA inc
 
 ## Contacts:
 
-[Saumya Pandey](https://github.com/saumya-datascience)
-[Andy Jagdeo](https://github.com/Andyjag91)
-[Tricia Toffey](https://github.com/saumya-datascience)
-[Jackelyne Gutierrez](https://github.com//Jackelyneg)
-[Okyere Gyebi](https://github.com/Okyere82)
+- [Saumya Pandey](https://github.com/saumya-datascience)
+- [Andy Jagdeo](https://github.com/Andyjag91)
+- [Tricia Toffey](https://github.com/saumya-datascience)
+- [Jackelyne Gutierrez](https://github.com//Jackelyneg)
+- [Okyere Gyebi](https://github.com/Okyere82)
 
 
 
